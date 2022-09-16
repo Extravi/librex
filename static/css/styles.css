@@ -157,16 +157,16 @@ a:hover,
 .logomobile {
     position: absolute;
     margin-top: 0px;
-    top: 20px;
+    top: 25px;
     left: 20px;
 }
 
-.noDecoration {
+.no-decoration {
     text-decoration: none;
     color: var(--main-fg);
 }
 
-.noDecoration:hover {
+.no-decoration:hover {
     text-decoration: none;
 }
 
@@ -204,6 +204,7 @@ a:hover,
     width: 450px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 
 .misc-container div {
@@ -256,14 +257,6 @@ a:hover,
     margin-left: 840px;
     margin-top: 0px;
     position: absolute;
-}
-
-@media only screen and (max-width: 1320px) {
-    .special-result-container {
-        position: relative;
-        float: none;
-        margin-left: 165px;
-    }
 }
 
 .text-result-wrapper {
@@ -387,8 +380,24 @@ a:hover,
     color: #ff79c6;
 }
 
+@media only screen and (max-width: 1320px) {
+    .special-result-container {
+        position: relative;
+        float: none;
+        margin-left: 165px;
+    }
+}
+
 /* mobile view */
 @media only screen and (max-width: 750px) {
+    p {
+        font-size: 16px;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
     .search-container input {
         width: 80%;
     }
@@ -497,14 +506,6 @@ a:hover,
 
     .search-container {
         margin-top: 10%;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    html {
-        font-size: 14px;
     }
 
     .text-result-container,
