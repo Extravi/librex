@@ -299,7 +299,7 @@ a:hover,
 
 .next-page-button-wrapper {
     margin-top: -50px;
-    margin-bottom: 25px;
+    margin-bottom: 100px;
 }
 
 .next-page-button-wrapper button {
@@ -510,6 +510,10 @@ a:hover,
 
     .search-container {
         margin-top: 10%;
+    }
+
+    .next-page-button-wrapper {
+        margin-bottom: 25px;
     }
 
     .text-result-container,
