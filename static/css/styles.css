@@ -380,6 +380,12 @@ a:hover,
     color: #ff79c6;
 }
 
+@media only screen and (max-width: 1380px) {
+    .special-result-container {
+        margin-left: 780px;
+    }
+}
+
 @media only screen and (max-width: 1320px) {
     .special-result-container {
         position: relative;
