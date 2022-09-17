@@ -382,7 +382,8 @@ a:hover,
 
 @media only screen and (max-width: 1380px) {
     .special-result-container {
-        margin-left: 780px;
+        min-width: 250px;
+        max-width: 400px;
     }
 }
 
@@ -391,6 +392,7 @@ a:hover,
         position: relative;
         float: none;
         margin-left: 165px;
+        max-width: 100%;
     }
 }
 
