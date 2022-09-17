@@ -380,7 +380,7 @@ a:hover,
     color: #ff79c6;
 }
 
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1400px) {
     .special-result-container {
         min-width: 250px;
         max-width: 400px;
