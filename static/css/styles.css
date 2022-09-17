@@ -254,7 +254,7 @@ a:hover,
     border-radius: 8px;
     background: var(--special-text-background);
     color: var(--special-text-color);
-    margin-left: 880px;
+    margin-left: 840px;
     margin-top: 0px;
     position: absolute;
 }
@@ -380,7 +380,7 @@ a:hover,
     color: #ff79c6;
 }
 
-@media only screen and (max-width: 1420px) {
+@media only screen and (max-width: 1400px) {
     .special-result-container {
         min-width: 250px;
         max-width: 400px;
