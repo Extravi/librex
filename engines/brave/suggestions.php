@@ -2,7 +2,7 @@
     function get_suggestions_results($query) {
         global $config;
         $query_encoded = urlencode($query);
-        $url = "https://search.brave.com/api/suggest?q=$query_encoded&rich=false";
+        $url = "https://search.brave.com/api/suggest?q=$query_encoded";
 
         // Make request
         $ch = curl_init($url);
