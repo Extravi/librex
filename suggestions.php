@@ -1,6 +1,6 @@
 <?php
     $config = require "config.php";
-    require "engines/google/suggestions.php";
+    require "engines/brave/suggestions.php";
 
     header('Content-Type: application/x-suggestions+json');
     header('Content-Disposition: attachment; filename="suggestions.json"');
