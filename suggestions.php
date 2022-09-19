@@ -8,3 +8,4 @@
     $q = isset($_REQUEST['q']) ? htmlspecialchars(trim($_REQUEST["q"])) : '';
     $result = get_suggestions_results($q);
     echo print_suggestions_results($result, $q);
+?>

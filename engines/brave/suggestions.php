@@ -14,3 +14,4 @@
     function print_suggestions_results($result) {
         echo $result;
     }
+?>
