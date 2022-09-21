@@ -56,7 +56,8 @@
                     <option value=\"discord\">Discord</option>
                     <option value=\"github_night\">GitHub Night</option>
                     <option value=\"startpage\">Startpage Dark</option>
-                    <option value=\"google\">Google Dark</option>";
+                    <option value=\"google\">Google Dark</option>
+                    <option value=\"gruvbox\">Gruvbox</option>"";
 
                     if (isset($_COOKIE["theme"]))
                     {
