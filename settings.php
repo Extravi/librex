@@ -47,8 +47,7 @@
                 <label for="theme">Theme:</label>
                 <select name="theme">
                 <?php
-                    $themes = "<option value=\"startpage\">Startpage Dark</option>
-                    <option value=\"dark\">Dark</option>
+                    $themes = "<option value=\"dark\">Dark</option>
                     <option value=\"amoled\">AMOLED</option>
                     <option value=\"light\">Light</option>
                     <option value=\"auto\">Auto</option>
@@ -56,6 +55,7 @@
                     <option value=\"night_owl\">Night Owl</option>
                     <option value=\"discord\">Discord</option>
                     <option value=\"github_night\">GitHub Night</option>
+                    <option value=\"startpage\">Startpage Dark</option>
                     <option value=\"google\">Google Dark</option>";
 
                     if (isset($_COOKIE["theme"]))
