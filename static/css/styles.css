@@ -62,7 +62,7 @@ html {
     color: var(--main-fg);
     background-color: var(--main-bg);
     font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 body {
@@ -79,7 +79,7 @@ button {
 }
 
 p {
-    font-size: 18px;
+    font-size: 17px;
     color: var(--result-fg);
 }
 
@@ -114,7 +114,7 @@ a:hover,
     color: var(--search-container-text-color);
     background-color: var(--search-container-background-color);
     padding: 10px;
-    font-size: inherit;
+    font-size: 16px;
     font-family: sans-serif;
     border: 1px solid var(--search-container-background-border);
     border-radius: 25px;
@@ -159,6 +159,7 @@ a:hover,
     margin-top: 0px;
     top: 20px;
     left: 20px;
+    font-size: 32px;
 }
 
 .no-decoration {
@@ -172,6 +173,7 @@ a:hover,
 
 .sub-search-button-wrapper {
     margin-left: 165px;
+    margin-bottom: 16px;
 }
 
 .search-button-wrapper button:hover,
@@ -276,7 +278,7 @@ a:hover,
 }
 
 .text-result-wrapper h2 {
-    font-size: 20px;
+    font-size: 19px;
     color: var(--result-link-fg);
     padding-top: 5px;
     margin-top: 1px;
@@ -472,6 +474,7 @@ a:hover,
         position: relative;
         left: 0px;
         margin-top: 0px;
+        font-size: 14px;
     }
 
     .sub-search-button-wrapper {
@@ -479,6 +482,7 @@ a:hover,
         padding: 0;
         display: flex;
         align-items: baseline;
+        margin-bottom: 16px;
     }
 
     .sub-search-button-wrapper img {
