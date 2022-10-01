@@ -398,6 +398,17 @@ a:hover,
     }
 }
 
+.featured {
+    padding: 10px;
+    border: 1px solid var(--special-result-border);
+    width: 500px;
+    border-radius: 8px;
+    background: var(--special-text-background);
+    color: var(--special-text-color);
+    margin-left: 165px;
+    margin-top: 0px;
+}
+
 /* mobile view */
 @media only screen and (max-width: 750px) {
     .footer-container {
@@ -499,7 +510,8 @@ a:hover,
         align-items: center;
     }
 
-    .special-result-container {
+    .special-result-container,
+    .featured {
         position: relative;
         float: none;
         max-width: 90%;
