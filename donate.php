@@ -17,7 +17,7 @@
                <img src="static/images/xmr.png" alt="xmr qr code" width="150" height="150"/>
         </div>
         <div class="misc-container">
-              <h1>Donate to librex.extravi.dev instance</h1>
+              <h1>Donate to instance</h1>
                <h3>Bitcoin (BTC):</h3>
                <p>bc1qnwc9guv3t98sspf4schl082tqzy54m8ztdqqxg</p>
                <img src="static/images/btc_instance.png" alt="btc qr code" width="150" height="150"/>
