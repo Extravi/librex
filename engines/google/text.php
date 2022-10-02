@@ -153,15 +153,12 @@
             array_shift($results);
         }
 
-            foreach($results as $result)
-            {
-                   if ($result["featured"] != null) {
-                     echo "<p class=\"featured\">";
-                     $featured = $result["featured"];
-                     echo $featured;
-                     echo "</p>";
-                   }
-            }
+        if ($results[0]["featured"] != null) {
+                echo "<p class=\"featured\">";
+                $featured = $results[0]["featured"];
+                echo $featured;
+                echo "</p>";
+        }
 
         echo "<div class=\"text-result-container\">";
 
