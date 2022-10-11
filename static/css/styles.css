@@ -152,6 +152,7 @@ a:hover,
     position: relative;
     left: 140px;
     margin: 18px;
+    margin-bottom: 12px;
 }
 
 .logomobile {
@@ -173,7 +174,7 @@ a:hover,
 
 .sub-search-button-wrapper {
     margin-left: 165px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .search-button-wrapper button:hover,
@@ -473,7 +474,7 @@ a:hover,
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
-        font-size: 28px;
+        font-size: 30px;
         display: block;
         margin-top: 0px;
         top: 0px;
@@ -493,7 +494,7 @@ a:hover,
         padding: 0;
         display: flex;
         align-items: baseline;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
     }
 
     .sub-search-button-wrapper img {
