@@ -1,6 +1,6 @@
 :root {
     --main-bg: #171b25;
-    --main-fg: #e8eaed;
+    --main-fg: #ebecf7;
 
     --result-link-fg: #a7b1fc;
     --result-fg: #ebecf7;
@@ -9,7 +9,7 @@
 
     --special-result-border: #3a445c;
     --special-text-background: #1e222d;
-    --special-text-color: #e8eaed;
+    --special-text-color: #ebecf7;
 
     --search-container-text-color: #ebecf7;
     --search-container-background-color: #2e3443;
