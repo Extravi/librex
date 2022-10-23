@@ -1,23 +1,23 @@
 :root {
     --main-bg: #171b25;
-    --main-fg: #ebecf7;
+    --main-fg: #F1F3F4;
 
-    --result-link-fg: #a7b1fc;
-    --result-fg: #ebecf7;
+    --result-link-fg: #8AB4F8;
+    --result-fg: #999da2;
 
     --button-bg: #0c0d0f;
 
     --special-result-border: #3a445c;
     --special-text-background: #1e222d;
-    --special-text-color: #ebecf7;
+    --special-text-color: #F1F3F4;
 
-    --search-container-text-color: #ebecf7;
+    --search-container-text-color: #F1F3F4;
     --search-container-background-color: #2e3443;
-    --search-container-background-border: #2e3443;
+    --search-container-background-border: #3a445c;
 
     --search-form-background-color: #0c0d0f;
     
-    --border: #0c0d0f;
+    --border: rgba(0,0,0,.2);
 
     --footer-fg: #999da2;
     --footer-bg: #0c0d0f;
