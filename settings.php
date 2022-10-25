@@ -56,7 +56,7 @@
                     <option value=\"night_owl\">Night Owl</option>
                     <option value=\"discord\">Discord</option>
                     <option value=\"google\">Google Dark</option>
-                    <option value=\"night\">Night</option>
+                    <option value=\"startpage\">Startpage Dark</option>
                     <option value=\"gruvbox\">Gruvbox</option>
                     <option value=\"github_night\">GitHub Night</option>";
 
