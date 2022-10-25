@@ -400,7 +400,7 @@ a:hover,
 
 .featured {
     padding: 10px;
-    border-bottom: 1px solid var(--special-result-border);
+    border-bottom: 1px solid var(--featured-result-border);
     width: 600px;
     background: var(--main-bg);
     color: var(--special-text-color);
