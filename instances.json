@@ -19,12 +19,6 @@
               "country": "UK"
           },
           {
-              "clearnet": "https://librex.kitscomputer.tk/",
-              "tor": null,
-              "i2p": null,
-              "country": "US"
-          },
-          {
               "clearnet": "https://search.funami.tech/",
               "tor": null,
               "i2p": null,
@@ -53,6 +47,12 @@
               "tor": null,
               "i2p": null,
               "country": "NL"
+          },
+          {
+              "clearnet": "https://linxer.org/search/",
+              "tor": null,
+              "i2p": null,
+              "country": "RO"
           }
     ]
 }
