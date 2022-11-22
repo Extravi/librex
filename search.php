@@ -66,6 +66,7 @@
                     $results = get_text_results($query, $page);
                     print_elapsed_time($start_time);
                     print_text_results($results);
+                    echo '<style>button[value*="0"] {color: var(--result-link-fg);}</style>';
                     break;
 
                 case 1:
@@ -73,6 +74,7 @@
                     $results = get_image_results($query_encoded, $page);
                     print_elapsed_time($start_time);
                     print_image_results($results);
+                    echo '<style>button[value*="1"] {color: var(--result-link-fg);}</style>';
                     break;
 
                 case 2:
@@ -80,6 +82,7 @@
                     $results = get_video_results($query_encoded);
                     print_elapsed_time($start_time);
                     print_video_results($results);
+                    echo '<style>button[value*="2"] {color: var(--result-link-fg);}</style>';
                     break;
 
                 case 3:
@@ -91,6 +94,7 @@
                         $results = get_merged_torrent_results($query_encoded);
                         print_elapsed_time($start_time);
                         print_merged_torrent_results($results);
+                        echo '<style>button[value*="3"] {color: var(--result-link-fg);}</style>';
                     }
                     break;
 
@@ -103,6 +107,7 @@
                         $results = get_hidden_service_results($query_encoded);
                         print_elapsed_time($start_time);
                         print_hidden_service_results($results);
+                        echo '<style>button[value*="4"] {color: var(--result-link-fg);}</style>';
                     }
                     break;
 
@@ -111,6 +116,7 @@
                     $results = get_text_results($query_encoded, $page);
                     print_text_results($results);
                     print_elapsed_time($start_time);
+                    echo '<style>button[value*="5"] {color: var(--result-link-fg);}</style>';
                     break;
             }
 
