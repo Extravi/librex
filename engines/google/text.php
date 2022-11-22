@@ -116,6 +116,7 @@
 
             $title = $xpath->evaluate(".//h3", $result)[0];
             $description = $xpath->evaluate(".//div[contains(@class, 'VwiC3b')]", $result)[0];
+            $featured = $xpath->evaluate(".//span[contains(@class, 'hgKElc')]", $result)[0];
 
             array_push($results,
                 array (
@@ -124,7 +125,8 @@
                     "base_url" => htmlspecialchars(get_base_url($url)),
                     "description" =>  $description == null ?
                                       "No description was provided for this site." :
-                                      htmlspecialchars($description->textContent)
+                                      htmlspecialchars($description->textContent),
+                    "featured" => htmlspecialchars($featured->textContent),
                 )
             );
         }
@@ -152,6 +154,13 @@
             echo "</p>";
 
             array_shift($results);
+        }
+        
+        if ($special["featured"] != null) {
+                echo "<p class=\"featured\">";
+                $featured = $special["featured"];
+                echo $featured;
+                echo "</p>";
         }
 
         echo "<div class=\"text-result-container\">";
