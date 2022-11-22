@@ -42,7 +42,9 @@
                 <button name="t" value="1"><img src="static/images/image_result.png" alt="image result" />Images</button>
                 <button name="t" value="2"><img src="static/images/video_result.png" alt="video result" />Videos</button>
                 <button name="t" value="3"><img src="static/images/torrent_result.png" alt="torrent result" />Torrents</button>
+                <button name="t" value="4"><img src="static/images/hidden_service_result.png" alt="hidden service result" />Hidden services</button>
             </div>
+        <hr>
         </form>
 
         <?php
@@ -64,7 +66,6 @@
                     $results = get_text_results($query, $page);
                     print_elapsed_time($start_time);
                     print_text_results($results);
-                    echo '<style>button[value*="0"] {color: var(--result-link-fg);}</style>';
                     break;
 
                 case 1:
@@ -72,7 +73,6 @@
                     $results = get_image_results($query_encoded, $page);
                     print_elapsed_time($start_time);
                     print_image_results($results);
-                    echo '<style>button[value*="1"] {color: var(--result-link-fg);}</style>';
                     break;
 
                 case 2:
@@ -80,7 +80,6 @@
                     $results = get_video_results($query_encoded);
                     print_elapsed_time($start_time);
                     print_video_results($results);
-                    echo '<style>button[value*="2"] {color: var(--result-link-fg);}</style>';
                     break;
 
                 case 3:
@@ -92,10 +91,19 @@
                         $results = get_merged_torrent_results($query_encoded);
                         print_elapsed_time($start_time);
                         print_merged_torrent_results($results);
-                        echo '<style>button[value*="3"] {color: var(--result-link-fg);}</style>';
-                        break;
                     }
+                    break;
 
+                case 4:
+                    if ($config->disable_hidden_service_search)
+                        echo "<p class=\"text-result-container\">The host disabled this feature! :C</p>";
+                    else
+                    {
+                        require "engines/ahmia/hidden_service.php";
+                        $results = get_hidden_service_results($query_encoded);
+                        print_elapsed_time($start_time);
+                        print_hidden_service_results($results);
+                    }
                     break;
 
                 default:
